@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("com.google.devtools.ksp")
 }
 android {
     namespace = "com.tokokasir.app"
@@ -10,8 +9,8 @@ android {
         applicationId = "com.tokokasir.app"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0-toko"
+        versionCode = 3
+        versionName = "1.0-berkah-sekar-simple"
     }
     buildTypes { release { isMinifyEnabled = false } }
     compileOptions {
@@ -30,15 +29,6 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.8.2")
     implementation("androidx.navigation:navigation-compose:2.7.6")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
-
-    // Room
-    implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1")
-    ksp("androidx.room:room-compiler:2.6.1")
-
-    // WorkManager untuk notifikasi
     implementation("androidx.work:work-runtime-ktx:2.9.0")
-
-    // Datastore
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 }
