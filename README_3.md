@@ -1,4 +1,4 @@
-# TOKO KASIR - Kotlin Native Full POS
+# TOKO BERKAH SEKAR - Kotlin Native Full POS
 
 ## Fitur sesuai request:
 - Login Admin / Kasir
@@ -25,3 +25,9 @@
 - Tambah backup DB ke Google Drive
 
 Dibuat untuk toko di Surabaya, support offline.
+
+
+## Update untuk Berkah Sekar:
+- Nama toko default: BERKAH SEKAR
+- Modal awal default: 15.000.000
+- Printer: BELUM ADA -> pakai Mode Preview Struk (share ke WA / PDF) sampai printer Bluetooth 58mm dibeli (rekomendasi: RPP02N / EPPOS 58mm ~Rp 300rb)
